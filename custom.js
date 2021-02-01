@@ -1,4 +1,5 @@
-    const cardsOnce = [
+(function($) {
+const cardsOnce = [
      {
 			name: "me-1",
 			img: "http://waddlewaddle.com.au/wp-content/uploads/2021/02/me-pool.png",
@@ -174,4 +175,4 @@
         scoreBoard.innerHTML = 0; */
         popup.style.display = "none";
     }
-
+})( jQuery );
